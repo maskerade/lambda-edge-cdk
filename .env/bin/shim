@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export NODE_PATH=/Users/figueiredos/rw-gitrepos/cdk-lambda-edge/.env/lib/node_modules
+export NPM_CONFIG_PREFIX=/Users/figueiredos/rw-gitrepos/cdk-lambda-edge/.env
+export npm_config_prefix=/Users/figueiredos/rw-gitrepos/cdk-lambda-edge/.env
+exec .env/bin/node "$@"
