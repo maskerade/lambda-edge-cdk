@@ -5,6 +5,9 @@ import { CdkLambdaEdgeStack } from '../lib/cdk-lambda-edge-stack';
 
 const app = new cdk.App();
 new CdkLambdaEdgeStack(app, 'CdkLambdaEdgeStack', {
+  env: {
+    region: 'eu-west-1'
+  }
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */

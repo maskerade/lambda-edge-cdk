@@ -1,6 +1,9 @@
-# Welcome to your CDK TypeScript project!
+# Lambda@Edge CDK Demo Project
 
-This is a blank project for TypeScript development with CDK.
+This is a demo project for TypeScript development with CDK.
+
+Create a Cloudfront distribution, S3 Bucket, DynamoDB table and some other pre-requisites such as IAM roles
+
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
